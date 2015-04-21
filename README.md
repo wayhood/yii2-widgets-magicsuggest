@@ -1,2 +1,31 @@
-# yii2-widgets-magicsuggest
-yii2-widgets-magicsuggest
+MagicSuggest
+============
+MagicSuggest
+
+Installation
+------------
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```
+php composer.phar require --prefer-dist wayhood/yii2-widgets-magicsuggest "*"
+```
+
+or add
+
+```
+"wayhood/yii2-widgets-magicsuggest": "*"
+```
+
+to the require section of your `composer.json` file.
+
+
+Usage
+-----
+
+Once the extension is installed, simply use it in your code by  :
+
+```php
+<?= \wh\widgets\AutoloadExample::widget(); ?>```
